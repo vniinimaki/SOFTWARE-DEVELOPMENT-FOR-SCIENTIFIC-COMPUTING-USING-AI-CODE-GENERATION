@@ -7,9 +7,9 @@
 2. **Access the Application Code**:
     - If you have Git installed, you can clone the application repository by running the following command in your terminal:
         ```bash
-        git clone https://gitlab.com/vniinimaki/llm-assisted-development-project.git
+        git clone https://github.com/vniinimaki/SOFTWARE-DEVELOPMENT-FOR-SCIENTIFIC-COMPUTING-USING-AI-CODE-GENERATION.git
         ```
-    - Alternatively, you can download the application code as a ZIP file from the GitLab repository page and unzip it.
+    - Alternatively, you can download the application code as a ZIP file from the GitHub repository page and unzip it.
 
 3. **Navigate to the Project Directory**: Once you have the application code on your machine, navigate to the project directory using your terminal.
 
