@@ -1,0 +1,89 @@
+body {
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#satelliteCount {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+#controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#controls #buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#markerControls {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: black;
+    border-radius: 10px;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 240px; /* Set a fixed width */
+    justify-content: center; /* Center the buttons */
+}
+
+#markerControls button {
+    width: 110px;
+    height: 30px;
+    margin: auto; /* Center the buttons */
+}
+
+.satelliteListItem {
+    color: #0096FF; /* Change the color to red, or any color you prefer */
+    font-size: 0.85em; /* Make the font size smaller */
+}
+
+#toggleLocationPlacingButton.on {
+    background-color: #9987ff;
+}
+
+#buttons {
+    display: flex;
+    gap: 10px;
+}
+
+#markerList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}

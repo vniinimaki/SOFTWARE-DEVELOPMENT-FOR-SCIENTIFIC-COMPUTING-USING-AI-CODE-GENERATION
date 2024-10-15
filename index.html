@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Earth Simulation</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+	<p id="satelliteCount"></p>
+	<div id="controls">
+		<div id="dateDisplay"></div>
+		<input id="speedSlider" type="range" min="1" max="3600" value="1" step="1" />
+		<div id="buttons">
+			<button id="pausePlayButton">Pause</button>
+			<button id="realTimeButton">Real Time</button>
+			<button id="oneMinButton">1 Min = 1 Sec</button>
+			<button id="oneHourButton">1 Hour = 1 Sec</button>
+		</div>
+	</div>
+	<div id="markerControls">
+		<div id="buttons">
+			<button id="removeMarkersButton">Remove Markers</button>
+			<button id="toggleLocationPlacingButton">Place Markers</button>
+		</div>
+		<ul id="markerList"></ul>
+	</div>
+	<script src="main.js" type="module"></script>
+</body>
+
+</html>

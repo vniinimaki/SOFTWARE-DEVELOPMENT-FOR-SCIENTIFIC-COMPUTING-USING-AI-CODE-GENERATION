@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "kd-tree-javascript": "^1.0.3",
+    "satellite.js": "^5.0.0",
+    "three": "^0.161.0"
+  },
+  "devDependencies": {
+    "vite": "^5.1.6"
+  }
+}
